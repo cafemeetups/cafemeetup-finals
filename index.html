@@ -175,7 +175,103 @@
             <p>Join thousands of creators already building connections</p>
             <a href="#" class="cta-button">Get Started →</a>
         </div>
+        <style>
+    /* Existing CSS... */
+    
+    /* Mobile Responsive Fixes */
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 2.5rem !important;
+            margin-bottom: 0.5rem !important;
+        }
         
+        .tagline {
+            font-size: 1.1rem !important;
+            margin-bottom: 2rem !important;
+            line-height: 1.4 !important;
+        }
+        
+        .features {
+            grid-template-columns: 1fr !important;
+            gap: 1rem !important;
+            margin: 2rem 0 !important;
+        }
+        
+        .feature {
+            padding: 1.5rem 1rem !important;
+        }
+        
+        .feature-icon {
+            font-size: 2rem !important;
+            margin-bottom: 0.5rem !important;
+        }
+        
+        .feature h3 {
+            font-size: 1.1rem !important;
+        }
+        
+        .feature p {
+            font-size: 0.9rem !important;
+        }
+        
+        .communities {
+            gap: 0.5rem !important;
+        }
+        
+        .community-tag {
+            font-size: 0.8rem !important;
+            padding: 0.4rem 0.8rem !important;
+        }
+        
+        .cta-section {
+            padding: 1.5rem !important;
+            margin-top: 2rem !important;
+        }
+        
+        .cta-button {
+            padding: 0.8rem 1.5rem !important;
+            font-size: 1rem !important;
+        }
+    }
+    
+    /* Small Mobile Screens */
+    @media (max-width: 480px) {
+        body {
+            padding: 15px !important;
+        }
+        
+        .container {
+            padding: 1rem !important;
+        }
+        
+        h1 {
+            font-size: 2rem !important;
+        }
+        
+        .tagline {
+            font-size: 1rem !important;
+        }
+        
+        .logo {
+            font-size: 3rem !important;
+        }
+        
+        .feature {
+            padding: 1rem 0.8rem !important;
+        }
+    }
+    
+    /* Tablet Screens */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .features {
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+        
+        .container {
+            max-width: 90% !important;
+        }
+    }
+</style>
         <p style="margin-top: 3rem; opacity: 0.7;">
             <strong>React App Deployment in Progress</strong><br>
             Full application launching soon...
