@@ -1,0 +1,10 @@
+{
+  "name": "cafemeetups-landing",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "echo 'No dev server needed'",
+    "build": "echo 'Build complete' && mkdir -p dist && cp index.html dist/",
+    "preview": "echo 'Preview not available'"
+  }
+}
