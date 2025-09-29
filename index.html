@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeMeetups - Connect with Creators</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem 1rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature p {
+            opacity: 0.8;
+            line-height: 1.5;
+        }
+        
+        .cta-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #f97316;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .communities {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .community-tag {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tagline {
+                font-size: 1.25rem;
+            }
+            
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">☕</div>
+        <h1>CafeMeetups</h1>
+        <p class="tagline">Where influencers, entrepreneurs, artists, and creators meet, chat, and collaborate over coffee.</p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">🤝</div>
+                <h3>Community Driven</h3>
+                <p>Connect with like-minded individuals from various creative fields</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🎯</div>
+                <h3>Exclusive Events</h3>
+                <p>Join curated coffee meetups and community events in your city</p>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">💬</div>
+                <h3>Direct Messaging</h3>
+                <p>Chat directly with other members and build meaningful connections</p>
+            </div>
+        </div>
+
+        <div class="communities">
+            <span class="community-tag">Influencer</span>
+            <span class="community-tag">Entrepreneur</span>
+            <span class="community-tag">Blogger</span>
+            <span class="community-tag">Artist</span>
+            <span class="community-tag">Creator</span>
+            <span class="community-tag">Video Editor</span>
+        </div>
+        
+        <div class="cta-section">
+            <h3>Ready to Start Your Journey?</h3>
+            <p>Join thousands of creators already building connections</p>
+            <a href="#" class="cta-button">Get Started →</a>
+        </div>
+        
+        <p style="margin-top: 3rem; opacity: 0.7;">
+            <strong>React App Deployment in Progress</strong><br>
+            Full application launching soon...
+        </p>
+    </div>
+</body>
+</html>
